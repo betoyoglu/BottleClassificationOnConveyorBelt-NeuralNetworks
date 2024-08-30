@@ -53,3 +53,5 @@ for category in categories:
         if filename.endswith(('.jpg', '.jpeg', '.png')):
             file_path = os.path.join(category_path, filename)
             detect_and_save_object(file_path, save_category_dir)
+
+#
